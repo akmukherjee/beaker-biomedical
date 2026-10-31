@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2026-present Satchel Baldwin <satchelbaldwin@gmail.com>
 #
 # SPDX-License-Identifier: MIT
+from pathlib import Path
 from typing import Dict, Any, Optional, TYPE_CHECKING
 
 from beaker_notebook.lib import BeakerContext
@@ -10,6 +11,9 @@ from .agent import BeakerBiomedicalAgent
 
 if TYPE_CHECKING:
     from beaker_notebook.kernel import BeakerKernel
+
+
+CCDI_SCRIPTS = Path(__file__).parent / "skills" / "ccdi-federation" / "scripts"
 
 
 class BeakerBiomedicalContext(BeakerContext):
@@ -27,3 +31,5 @@ class BeakerBiomedicalContext(BeakerContext):
 
     async def setup(self, context_info=None, parent_header=None):
         await super().setup()
+        # Skills that ship Python helpers are importable from the subkernel without any setup.
+        await self.execute(f"import sys; sys.path.insert(0, {str(CCDI_SCRIPTS)!r})")

@@ -20,24 +20,15 @@ layer. When the user asks a data question, run the queries and answer it.
 
 ## Start here: import the helpers
 
-Run this once per session. Do not retype or redefine the helpers, because the copies here
-hold the guardrails. They print their own results, and if an import fails, fix the path rather
-than rewriting them. Empty output does not mean the API failed. Never tell the user the API is
-down unless a call raised an error.
-
 ```python
-import sys
-from pathlib import Path
-try:
-    import beaker_biomedical
-    pkg = Path(beaker_biomedical.__file__).parent
-except ImportError:
-    pkg = next(p / "src/beaker_biomedical" for p in (Path.cwd(), *Path.cwd().parents)
-               if (p / "src/beaker_biomedical").is_dir())
-sys.path.insert(0, str(pkg / "beaker_biomedical_context/skills/ccdi-federation/scripts"))
 from ccdi_helpers import (federation_info, source_totals, list_fields, find_value, check_filter,
                           live_values, search_diagnosis, spec_params, ccdi_get, split_sources)
 ```
+
+Do not retype or redefine the helpers, because the copies here hold the guardrails. They print
+their own results. If the import raises `ModuleNotFoundError`, you are outside Beaker: add this
+skill's `scripts` folder to `sys.path` and import again. Empty output does not mean the API
+failed. Never tell the user the API is down unless a call raised an error.
 
 ## The standard steps for any "how many" question
 
@@ -56,6 +47,7 @@ match, so never call it a category count.
 | Question | Call |
 |---|---|
 | Total records only, with no condition at all. "BAM files" or "tumor samples" have a condition, so do not use this | `source_totals(entity)` |
+| A summary or overview of an entity | `source_totals(entity)`, then `live_values(entity, field)` for key fields, such as sex and race for subjects |
 | Which field and value a word means, such as "tumor" or "female" | `find_value(entity, term)`, always first |
 | How many match a value | `check_filter(entity, field, value)` |
 | A disease, especially when few sources support the filter | `search_diagnosis(entity, term)` |
@@ -68,7 +60,7 @@ match, so never call it a category count.
    about is not in the data, say so plainly, even when another helper gave you useful
    numbers. For example: "No subjects have sex X, because X is not a valid value." Then give
    the closest real values.
-1. **Call `federation_info()` first.** The sources and their versions change, so never
+1. **Call `federation_info()` first, then keep going.** It only lists sources and versions, so it answers the question only if the user asked about those. The sources and their versions change, so never
    assume a fixed list. Each source runs its own API version, and a filter in the latest
    spec may not work on an older source. Warn the user when that applies.
 2. **HTTP 200 does not mean every source answered.** Always use `split_sources()`, and
