@@ -1,0 +1,1126 @@
+{
+  "age_at_diagnosis": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  },
+  "anatomical_sites": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  },
+  "diagnosis": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  },
+  "diagnosis_category": {
+    "formal_name": "caDSR CDE 16607972 1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=16607972%20and%20ver_nr=1",
+    "cde_description": "The disease group which is associated with the pediatric cancer diagnosis.",
+    "permissible_values": [
+      {
+        "value": "Atypical Teratoid/Rhabdoid Tumors",
+        "description": "An aggressive malignant embryonal neoplasm arising from the central nervous system. It is composed of cells with a large eccentric nucleus, prominent nucleolus, and abundant cytoplasm. It may be associated with loss of chromosome 22. The vast majority of cases occur in childhood. Symptoms include lethargy, vomiting, cranial nerve palsy, headache, and hemiplegia.",
+        "vm_long_name": "Atypical Teratoid/Rhabdoid Tumor",
+        "vm_public_id": "4722554",
+        "concept_code": "C6906",
+        "begin_date": "02/05/2024"
+      },
+      {
+        "value": "Choroid Plexus Tumors",
+        "description": "An intraventricular papillary neoplasm that originates from the choroid plexus epithelium. It includes the choroid plexus papilloma, atypical choroid plexus papilloma, and choroid plexus carcinoma.",
+        "vm_long_name": "Choroid Plexus Neoplasm",
+        "vm_public_id": "5097523",
+        "concept_code": "C3473",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "CNS Germ Cell Tumors",
+        "description": "Germ Cell Tumors of the CNS constitute a unique class of rare tumors that affect mainly children and adolescents. Their histopathological and biological profile largely corresponds to that of homologous germ cell neoplasms arising in the gonads and in other extragonadal sites. Germ Cell Tumors of the CNS include: Germinoma, Embryonal Carcinoma, Yolk Sac Tumor (Endodermal Sinus Tumor), Choriocarcinoma, Mature Teratoma, Immature Teratoma, Teratoma with Malignant Transformation and Mixed Germ Cell Tumors. (Adapted from WHO)",
+        "vm_long_name": "Central Nervous System Germ Cell Tumor",
+        "vm_public_id": "2578439",
+        "concept_code": "C5461",
+        "begin_date": "04/03/2006"
+      },
+      {
+        "value": "CNS Sarcomas",
+        "description": "A sarcoma that arises from the central nervous system.",
+        "vm_long_name": "Central Nervous System Sarcoma",
+        "vm_public_id": "14235234",
+        "concept_code": "C5153",
+        "begin_date": "02/05/2024"
+      },
+      {
+        "value": "Craniopharyngiomas",
+        "description": "A benign, partly cystic, epithelial tumor of the sellar region, presumably derived from Rathke pouch epithelium. It affects mainly children and young adults. There are two clinicopathological forms: adamantinomatous craniopharyngioma and papillary craniopharyngioma. The most significant factor associated with recurrence is the extent of surgical resection, with lesions greater than 5 cm in diameter carrying a markedly worse prognosis. (Adapted from WHO)",
+        "vm_long_name": "Craniopharyngioma",
+        "vm_public_id": "4265243",
+        "concept_code": "C2964",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Ependymoma",
+        "description": "Ependymoma (WHO grade II) is the most common ependymal neoplasm. It is a slow growing tumor of children and young adults and is usually located intraventricularly.  It often causes clinical symptoms by blocking CSF pathways. Key histological features include perivascular pseudorosettes and ependymal rosettes. (Adapted from WHO)",
+        "vm_long_name": "Ependymoma",
+        "vm_public_id": "2578706",
+        "concept_code": "C3017",
+        "begin_date": "04/23/2006"
+      },
+      {
+        "value": "Glioneuronal and Neuronal Tumors",
+        "description": "A group of central nervous system neoplasms with a variable amount of neuronal and, less consistently, glial differentiation. They occur at a low frequency and usually carry a favorable prognosis. Representative examples include dysplastic cerebellar gangliocytoma, desmoplastic infantile ganglioglioma, desmoplastic infantile astrocytoma, and dysembryoplastic neuroepithelial tumor. (Adapted from WHO)",
+        "vm_long_name": "Glioneuronal and Neuronal Tumors",
+        "vm_public_id": "14235233",
+        "concept_code": "C4747",
+        "begin_date": "02/05/2024"
+      },
+      {
+        "value": "High-Grade Glioma",
+        "description": "A grade 3 or grade 4 glioma arising from the central nervous system. This category includes glioblastoma, anaplastic astrocytoma, anaplastic ependymoma, anaplastic oligodendroglioma, and anaplastic oligoastrocytoma.",
+        "vm_long_name": "Malignant Brain Glioma",
+        "vm_public_id": "14235230",
+        "concept_code": "C4822",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Low-Grade Gliomas",
+        "description": "A grade I or grade II glioma arising from the central nervous system. This category includes pilocytic astrocytoma, diffuse astrocytoma, subependymal giant cell astrocytoma, ependymoma, oligodendroglioma, oligoastrocytoma, and angiocentric glioma.",
+        "vm_long_name": "Low Grade Glioma",
+        "vm_public_id": "7315250",
+        "concept_code": "C132067",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Medulloblastoma",
+        "description": "A malignant, invasive embryonal neoplasm arising from the cerebellum. It occurs predominantly in children and has the tendency to metastasize via the cerebrospinal fluid pathways. Signs and symptoms include truncal ataxia, disturbed gait, lethargy, headache, and vomiting. There are four histologic variants: anaplastic medulloblastoma, desmoplastic/nodular medulloblastoma, large cell medulloblastoma, and medulloblastoma with extensive nodularity.",
+        "vm_long_name": "Medulloblastoma",
+        "vm_public_id": "4265264",
+        "concept_code": "C3222",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Other CNS Embryonal Tumors",
+        "description": "A term that refers to central nervous system embryonal tumors which are not fully characterized.",
+        "vm_long_name": "Central Nervous System Embryonal Tumor, Not Otherwise Specified",
+        "vm_public_id": "14741367",
+        "concept_code": "C5398",
+        "begin_date": "10/20/2025"
+      },
+      {
+        "value": "Myeloid Leukemia",
+        "description": "A clonal proliferation of myeloid cells and their precursors in the bone marrow, peripheral blood, and spleen. When the proliferating cells are immature myeloid cells and myeloblasts, it is called acute myeloid leukemia. When the proliferating myeloid cells are neutrophils, it is called chronic myelogenous leukemia.",
+        "vm_long_name": "Myeloid Leukemia",
+        "vm_public_id": "4903679",
+        "concept_code": "C3172",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Lymphoblastic Leukemia",
+        "description": "Leukemia with an acute onset, characterized by the presence of lymphoblasts in the bone marrow and the peripheral blood. It includes the acute B lymphoblastic leukemia and acute T lymphoblastic leukemia.",
+        "vm_long_name": "Acute Lymphoblastic Leukemia",
+        "vm_public_id": "3322383",
+        "concept_code": "C3167",
+        "begin_date": "12/06/2011"
+      },
+      {
+        "value": "Hodgkin Lymphoma",
+        "description": "A lymphoma, previously known as Hodgkin's disease, characterized by the presence of large tumor cells in an abundant admixture of nonneoplastic cells. There are two distinct subtypes: nodular lymphocyte predominant Hodgkin lymphoma and classical Hodgkin lymphoma. Hodgkin lymphoma involves primarily lymph nodes.",
+        "vm_long_name": "Hodgkin Lymphoma",
+        "vm_public_id": "4981811",
+        "concept_code": "C9357",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Non-Hodgkin Lymphoma",
+        "description": "Distinct from Hodgkin lymphoma both morphologically and biologically, Non-Hodgkin lymphoma (NHL) is characterized by the absence of Reed-Sternberg cells, can occur at any age, and usually presents as a localized or generalized lymphadenopathy associated with fever and weight loss. The clinical course varies according to the morphologic type. NHL is clinically classified as indolent, aggressive, or having a variable clinical course. NHL can be of B-or T-/NK-cell lineage.",
+        "vm_long_name": "Non-Hodgkin lymphoma",
+        "vm_public_id": "2568326",
+        "concept_code": "C3211",
+        "begin_date": "04/13/2011"
+      },
+      {
+        "value": "Lymphoproliferative Diseases",
+        "description": "A disorder characterized by proliferation of lymphocytes at various stages of differentiation. Lymphoproliferative disorders can be neoplastic (clonal, as in lymphomas and leukemias) or reactive (polyclonal, as in infectious mononucleosis). --2004",
+        "vm_long_name": "Lymphoproliferative Disorder",
+        "vm_public_id": "3235573",
+        "concept_code": "C9308",
+        "begin_date": "10/20/2025"
+      },
+      {
+        "value": "Soft Tissue Tumors",
+        "description": "A malignant mesenchymal neoplasm arising from muscle tissue, adipose tissue, blood vessels, fibrous tissue, or other supportive tissues excluding the bones.",
+        "vm_long_name": "Soft Tissue Sarcoma",
+        "vm_public_id": "3384698",
+        "concept_code": "C9306",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Neuroblastoma",
+        "description": "A neuroblastic tumor characterized by the presence of neuroblastic cells, the absence of ganglion cells, and the absence of a prominent Schwannian stroma formation.",
+        "vm_long_name": "Neuroblastoma",
+        "vm_public_id": "4265259",
+        "concept_code": "C3270",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Osteosarcoma",
+        "description": "A usually aggressive malignant bone-forming mesenchymal neoplasm, predominantly affecting adolescents and young adults. It usually involves bones and less frequently extraosseous sites. It often involves the long bones (particularly distal femur, proximal tibia, and proximal humerus). Pain with or without a palpable mass is the most frequent clinical symptom. It may spread to other anatomic sites, particularly the lungs.",
+        "vm_long_name": "Osteosarcoma",
+        "vm_public_id": "2573004",
+        "concept_code": "C9145",
+        "begin_date": "04/10/2019"
+      },
+      {
+        "value": "Renal Tumors",
+        "description": "A benign or malignant neoplasm affecting the kidney. Representative examples of benign renal neoplasms include fibroma, lipoma, oncocytoma, and juxtaglomerular cell tumor. Representative examples of malignant renal neoplasms include renal cell carcinoma, renal pelvis carcinoma, Wilms tumor, rhabdoid tumor, sarcoma, and lymphoma.",
+        "vm_long_name": "Renal Neoplasm",
+        "vm_public_id": "3210726",
+        "concept_code": "C3150",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Germ Cell Tumors",
+        "description": "A benign or malignant, gonadal or extragonadal neoplasm that originates from germ cells. Representative examples include teratoma, seminoma, embryonal carcinoma, and yolk sac tumor.",
+        "vm_long_name": "Germ Cell Tumor",
+        "vm_public_id": "4265239",
+        "concept_code": "C3708",
+        "begin_date": "10/21/2019"
+      },
+      {
+        "value": "Ewings Sarcoma",
+        "description": "A small round cell tumor that lacks morphologic, immunohistochemical, and electron microscopic evidence of neuroectodermal differentiation. It represents one of the two ends of the spectrum called Ewing sarcoma/peripheral neuroectodermal tumor. It affects mostly males under age 20, and it can occur in soft tissue or bone. Pain and the presence of a mass are the most common clinical symptoms.",
+        "vm_long_name": "Ewing Sarcoma",
+        "vm_public_id": "2593150",
+        "concept_code": "C4817",
+        "begin_date": "07/31/2023"
+      },
+      {
+        "value": "Liver Tumors",
+        "description": "A benign, premalignant, or malignant neoplasm that affects the liver parenchyma or intrahepatic bile ducts.",
+        "vm_long_name": "Liver Neoplasm",
+        "vm_public_id": "16607973",
+        "concept_code": "C7103",
+        "begin_date": "10/20/2025"
+      },
+      {
+        "value": "Other Gliomas",
+        "description": "Different than the one(s) previously specified or mentioned. A benign or malignant brain and spinal cord tumor that arises from glial cells (astrocytes, oligodendrocytes, ependymal cells). Tumors that arise from astrocytes are called astrocytic tumors or astrocytomas. Tumors that arise from oligodendrocytes are called oligodendroglial tumors. Tumors that arise from ependymal cells are called ependymomas.",
+        "vm_long_name": "Other Glioma",
+        "vm_public_id": "16965690",
+        "concept_code": "C3059",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Other Brain Tumors",
+        "description": "Different than the one(s) previously specified or mentioned. A benign or malignant neoplasm that arises from or metastasizes to the brain.",
+        "vm_long_name": "Other Brain Neoplasm",
+        "vm_public_id": "16966535",
+        "concept_code": "C2907",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Other Solid Tumors",
+        "description": "Different than the one(s) previously specified or mentioned. A solid neoplasm (e.g., carcinoma, sarcoma) occurring in children.",
+        "vm_long_name": "Other Childhood Solid Neoplasm",
+        "vm_public_id": "16966536",
+        "concept_code": "C9107",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Rhabdomyosarcoma",
+        "description": "A rare aggressive malignant mesenchymal neoplasm that arises from striated (skeletal or cardiac) muscle cells. It usually occurs in children and young adults.",
+        "vm_long_name": "Rhabdomyosarcoma",
+        "vm_public_id": "16966538",
+        "concept_code": "C3359",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Rhabdoid Tumors",
+        "description": "An aggressive malignant embryonal neoplasm usually occurring during childhood. It is characterized by the presence of large cells with abundant cytoplasm, large eccentric nucleus, and a prominent nucleolus and it is associated with abnormalities of chromosome 22. It can arise from the central nervous system, kidney, and the soft tissues. The prognosis is poor.",
+        "vm_long_name": "Rhabdoid Tumor",
+        "vm_public_id": "2962178",
+        "concept_code": "C3808",
+        "begin_date": "01/19/2018"
+      },
+      {
+        "value": "Retinoblastoma",
+        "description": "A malignant tumor that originates in the nuclear layer of the retina. As the most common primary tumor of the eye in children, retinoblastoma is still relatively uncommon, accounting for only 1% of all malignant tumors in pediatric patients. Approximately 95% of cases are diagnosed before age 5. These tumors may be multifocal, bilateral, congenital, inherited, or acquired. Seventy-five percent of retinoblastomas are unilateral; 60% occur sporadically. A predisposition to retinoblastoma has been associated with 13q14 cytogenetic abnormalities. Patients with the inherited form also appear to be at increased risk for secondary nonocular malignancies such as osteosarcoma, malignant fibrous histiocytoma, and fibrosarcoma.",
+        "vm_long_name": "Retinoblastoma",
+        "vm_public_id": "16966537",
+        "concept_code": "C7541",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Endocrine and Neuroendocrine Tumors",
+        "description": "A benign or malignant neoplasm that affects the endocrine glands. An article which expresses the relation of connection or addition. It is used to conjoin a word with a word, a clause with a clause, or a sentence with a sentence. An epithelial neoplasm with neuroendocrine differentiation. This category includes neuroendocrine tumors, neuroendocrine carcinomas, and paragangliomas.",
+        "vm_long_name": "Endocrine Neoplasm And Neuroendocrine Neoplasm",
+        "vm_public_id": "16966539",
+        "concept_code": "C3809",
+        "begin_date": "01/21/2026"
+      },
+      {
+        "value": "Other Hematopoietic Tumors",
+        "description": "Different than the one(s) previously specified or mentioned. A neoplasm that arises from hematopoietic and lymphoid cells. Representative examples include myeloproliferative neoplasms, myelodysplastic syndromes, leukemias, Hodgkin lymphomas, and non-Hodgkin lymphomas.",
+        "vm_long_name": "Other Hematopoietic and Lymphoid Cell Neoplasm",
+        "vm_public_id": "16966540",
+        "concept_code": "C27134",
+        "begin_date": "01/21/2026"
+      }
+    ]
+  },
+  "disease_phase": {
+    "formal_name": "caDSR CDE 12217251 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=12217251%20and%20ver_nr=1",
+    "cde_description": "The stage or period of an individual's treatment process during which relevant observations were recorded.",
+    "permissible_values": [
+      {
+        "value": "Post-Mortem",
+        "description": "After death. Often used to describe an autopsy.",
+        "vm_long_name": "Postmortem",
+        "vm_public_id": "5236215",
+        "concept_code": "C94193",
+        "begin_date": "03/10/2023"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "5612322",
+        "concept_code": "C43234",
+        "begin_date": "03/09/2023"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "4266671",
+        "concept_code": "C17998",
+        "begin_date": "03/09/2023"
+      },
+      {
+        "value": "Initial Diagnosis",
+        "description": "The first diagnosis of the individual's condition.",
+        "vm_long_name": "Initial Diagnosis",
+        "vm_public_id": "8002761",
+        "concept_code": "C156813",
+        "begin_date": "12/27/2022"
+      },
+      {
+        "value": "Progression",
+        "description": "The worsening of a disease over time",
+        "vm_long_name": "Disease Progression",
+        "vm_public_id": "2816916",
+        "concept_code": "C17747",
+        "begin_date": "2/27/2022"
+      },
+      {
+        "value": "Refractory",
+        "description": "Not responding to treatment.",
+        "vm_long_name": "Refractory",
+        "vm_public_id": "2566882",
+        "concept_code": "C38014",
+        "begin_date": "12/27/2022"
+      },
+      {
+        "value": "Relapse",
+        "description": "The return of a disease after a period of remission.",
+        "vm_long_name": "Recurrent Disease",
+        "vm_public_id": "3828963",
+        "concept_code": "C38155",
+        "begin_date": "12/27/2022"
+      },
+      {
+        "value": "Relapse/Progression",
+        "description": "Either the return of the disease or the progression of the disease.",
+        "vm_long_name": "Disease Relapse/Progression",
+        "vm_public_id": "12217248",
+        "concept_code": "C174991",
+        "begin_date": "12/27/2022"
+      }
+    ]
+  },
+  "library_selection_method": {
+    "formal_name": "caDSR CDE 6347743 2.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=6347743%20and%20ver_nr=2",
+    "cde_description": "The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.",
+    "permissible_values": [
+      {
+        "value": "Random PCR",
+        "description": "Source material was selected by randomly generated primers",
+        "vm_long_name": "Random PCR",
+        "vm_public_id": "6287022",
+        "concept_code": "05/15/2018",
+        "begin_date": ""
+      },
+      {
+        "value": "PCR",
+        "description": "A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.  This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.",
+        "vm_long_name": "Polymerase Chain Reaction",
+        "vm_public_id": "3234683",
+        "concept_code": "C17003",
+        "begin_date": "12/01/2023"
+      },
+      {
+        "value": "Random",
+        "description": "Random selection by shearing or other method",
+        "vm_long_name": "Random",
+        "vm_public_id": "6287023",
+        "concept_code": "05/15/2018",
+        "begin_date": ""
+      },
+      {
+        "value": "Hybrid Selection",
+        "description": "Selection by hybridization in array or solution.",
+        "vm_long_name": "Hybrid Selection",
+        "vm_public_id": "6287909",
+        "concept_code": "05/15/2018",
+        "begin_date": ""
+      },
+      {
+        "value": "Unspecified",
+        "description": "Not stated explicitly or in detail.: A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.: A means, manner of procedure, or systematic course of actions that have to be performed in order to accomplish a particular goal.",
+        "vm_long_name": "Unspecified Sequencing Library Method",
+        "vm_public_id": "6287913",
+        "concept_code": "C71460",
+        "begin_date": "05/15/2018"
+      },
+      {
+        "value": "rRNA Depletion",
+        "description": "A genomic library where the sample has been subjected to a ribosomal RNA depletion step before it is amplified.",
+        "vm_long_name": "rRNA Depleted Genomic Library",
+        "vm_public_id": "7537069",
+        "concept_code": "C163990",
+        "begin_date": "12/22/2020"
+      },
+      {
+        "value": "Not applicable",
+        "description": "Determination of a value is not relevant in the current context.",
+        "vm_long_name": "Not Applicable",
+        "vm_public_id": "5682946",
+        "concept_code": "C48660",
+        "begin_date": "08/30/2024"
+      },
+      {
+        "value": "Poly-A Enriched Genomic Library",
+        "description": "A genomic library where the sample has been subjected to enrichment via binding to immobilized poly-T oligonucleotides, which will preferentially isolate polyadenylated (poly-A) RNAs.",
+        "vm_long_name": "Poly-A Enriched Genomic Library",
+        "vm_public_id": "14901531",
+        "concept_code": "C163988",
+        "begin_date": "04/18/2024"
+      }
+    ]
+  },
+  "library_strategy": {
+    "formal_name": "caDSR CDE 6273393 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=6273393%20and%20ver_nr=1",
+    "cde_description": "The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.",
+    "permissible_values": [
+      {
+        "value": "AMPLICON",
+        "description": "A method for targeted DNA sequencing that uses oligonucleotide primers to amplify regions of interest, followed by next-generation sequencing (NGS) for deep coverage of the region.",
+        "vm_long_name": "AMPLICON",
+        "vm_public_id": "6273354",
+        "concept_code": "C204813",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "ATAC-Seq",
+        "description": "A molecular genetic technique that isolates and sequences chromosomal regions that are rich in open chromatin. First, nuclei are harvested from a cellular sample. Then a hyperactive Tn5 transposase is added to the nuclei where it excises non-nucleosomal DNA strands and ligates co- administered high-throughput sequencing adapters (tagmentation). The tagged DNA fragments are isolated, amplified by PCR and sequenced. The number of reads for specific region of DNA correlate with increased chromatin accessibility and this method can identify regions of transcription factor and nucleosome binding.",
+        "vm_long_name": "ATAC-seq",
+        "vm_public_id": "6273353",
+        "concept_code": "C156056",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Bisulfite-Seq",
+        "description": "A DNA sequencing technique that can differentiate cytosine from 5-methylcytosine in a DNA sample. First, a denatured DNA sample is treated with bisulfite which converts non-methylated cytosine to uracil. Next, the sample is amplified using a PCR method that does not discriminate between non-methylated and methylated sequences. The amplified DNA is subjected to nucleotide sequencing. The resulting sequence is compared to an identical control sample of DNA that was not treated with bisulfite. Unmethylated cytosines will be displayed as cytosines in the control sample and as thymines in the bisulfite-treated sample.",
+        "vm_long_name": "Bisulfite-Seq",
+        "vm_public_id": "6273352",
+        "concept_code": "C106054",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "ChIA-PET",
+        "description": "A molecular genetic technique that combines chromatin immunoprecipitation (ChIP) with paired end tagged (PET) DNA sequencing to identify the nucleotide sequences for the binding sites occupied by DNA-associated proteins in a sample.",
+        "vm_long_name": "ChIA-PET",
+        "vm_public_id": "6273351",
+        "concept_code": "C172845",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "ChIP-Seq",
+        "description": "A molecular genetic technique that combines chromatin immunoprecipitation (ChIP) with massively parallel DNA sequencing to map the binding sites of DNA-associated proteins in a sample of cells. First, crosslinked protein-DNA complexes are isolated using ChIP. Next, the crosslinks are broken, the proteins are removed and the purified DNA is modified with adaptor oligonucleotides to facilitate massively parallel DNA sequencing. Following sequencing, the DNA sequences that are obtained can be mapped to their genomic locations.",
+        "vm_long_name": "ChIP-Seq",
+        "vm_public_id": "6273350",
+        "concept_code": "C106049",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "CLONE",
+        "description": "DNA sequencing where a target is cloned into a vector, physically mapped, and then shotgun sequenced.",
+        "vm_long_name": "CLONE",
+        "vm_public_id": "6273348",
+        "concept_code": "C204814",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "CLONEEND",
+        "description": "A DNA sequencing strategy where a single read is initiated from one or both ends of a cloned DNA fragment.",
+        "vm_long_name": "CLONEEND",
+        "vm_public_id": "6273347",
+        "concept_code": "C204815",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "CTS",
+        "description": "A DNA sequencing strategy where a sequencing primer is chosen from a sequenced region in order to extend the sequenced region.",
+        "vm_long_name": "CTS",
+        "vm_public_id": "6273361",
+        "concept_code": "C204816",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "DNA-Seq",
+        "description": "The determination of the sequence of purines and pyrimidines in deoxyribonucleic acid (DNA).",
+        "vm_long_name": "DNA Sequencing",
+        "vm_public_id": "6424615",
+        "concept_code": "C153598",
+        "begin_date": "03/25/2024"
+      },
+      {
+        "value": "DNase-Hypersensitivity",
+        "description": "A molecular genetic technique where genome-wide sequencing is performed on DNA regions that are super sensitive to cleavage by DNase I to identify putative DNA regulatory sequences.",
+        "vm_long_name": "DNase-Hypersensitivity",
+        "vm_public_id": "6273360",
+        "concept_code": "C106052",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "EST",
+        "description": "A random cDNA library comprised of 200-800 bp random pooled mRNA clones isolated from a specific organism, specific tissue and/or a given stage of development. Clones are randomly selected for single-pass sequencing reads, the raw sequence reads are processed to remove low-quality sequence information and contaminating vector sequence and the resulting higher-quality sequences can be aggregated and aligned with others to assemble complete genetic or genomic sequences.",
+        "vm_long_name": "EST",
+        "vm_public_id": "6273359",
+        "concept_code": "C16208",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "FAIRE-seq",
+        "description": "A molecular genetic technique that depletes a biological sample of nucleosomal DNA and then subjects the non-nucleosome-associated DNA to next-generation sequencing. Since nucleosome disruption of chromatin is indicative of active sites of DNA transcription, this technique can isolate DNA sequences that are involved in transcriptional regulation. First, a sample is treated with formaldehyde to form DNA-protein crosslinks, followed by sample lysis and sonication. The processed sample is subjected to phenol/chloroform extraction and the DNA in the aqueous phase is analyzed using next-generation sequencing techniques.",
+        "vm_long_name": "FAIRE-Seq",
+        "vm_public_id": "6273358",
+        "concept_code": "C106051",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "FINISHING",
+        "description": "Targeted sequencing that uses primers chosen from a sequenced region to cover unsequenced strands or regions.",
+        "vm_long_name": "FINISHING",
+        "vm_public_id": "6273356",
+        "concept_code": "C204818",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "FL-cDNA",
+        "description": "Sequencing of cDNA to obtain a continuous full-length sequence.",
+        "vm_long_name": "FL-cDNA",
+        "vm_public_id": "6273392",
+        "concept_code": "C204817",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Hi-C",
+        "description": "A DNA sequencing strategy designed to detect genome-wide chromatin interactions in the nucleus. The method is based on Chromosome Conformation Capture, in which chromatin is crosslinked with formaldehyde, then digested, and re-ligated in such a way that only DNA fragments that are covalently linked together form ligation products. In Hi-C, a biotin-labeled nucleotide is incorporated at the ligation junction, enabling selective purification of chimeric DNA ligation junctions followed by deep sequencing.",
+        "vm_long_name": "Hi-C",
+        "vm_public_id": "6273391",
+        "concept_code": "C204819",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "MBD-Seq",
+        "description": "A strategy to obtain DNA sequences from (all) methylated sites. Genomic DNA is randomly fragmented with ultrasonication and then methylated fragments are captured by a protein with high affinity for double- stranded DNA harboring methylated CpGs; non-methylated DNA fragments are washed away. The methylation-enriched fraction is then barcode tagged and sequenced.",
+        "vm_long_name": "MBD-Seq",
+        "vm_public_id": "6273390",
+        "concept_code": "C204820",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "MeDIP-Seq",
+        "description": "A strategy to obtain DNA sequences from methylated sites. Genomic DNA is randomly sheared by sonication and immunoprecipitated with a monoclonal antibody that specifically recognizes 5-methylcytidine. The DNA fragments are then isolated and sequenced.",
+        "vm_long_name": "MeDIP-Seq",
+        "vm_public_id": "6273389",
+        "concept_code": "C204821",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "miRNA-Seq",
+        "description": "A next-generation or massively parallel high-throughput DNA sequencing- based procedure that can identify and quantify the microRNA sequences present in a biological sample.",
+        "vm_long_name": "miRNA-Seq",
+        "vm_public_id": "6273388",
+        "concept_code": "C156057",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "MNase-Seq",
+        "description": "A molecular genetic technique where genome-wide sequencing is performed on chromosomal DNA that is resistant to treatment with micrococcal nuclease. This technique identifies nucleosomal DNA sequences.",
+        "vm_long_name": "MNase-Seq",
+        "vm_public_id": "6273387",
+        "concept_code": "C106056",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "MRE-Seq",
+        "description": "A method to study DNA methylation. Genomic DNA is separately digested with different methylation sensitive restriction enzymes and the fragments are used to generate a library. Deep sequencing of the library allows for accurate detection of methylation sites in the genome.",
+        "vm_long_name": "MRE-Seq",
+        "vm_public_id": "6273386",
+        "concept_code": "C204822",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "ncRNA-Seq",
+        "description": "A molecular genetic technique that can determine the RNA sequences for all or part of the population of small and large non-protein coding RNA transcripts in a sample.",
+        "vm_long_name": "ncRNA-Seq",
+        "vm_public_id": "6273385",
+        "concept_code": "C172858",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Other",
+        "description": "Different than the one(s) previously specified or mentioned.",
+        "vm_long_name": "Other Library strategy",
+        "vm_public_id": "6273371",
+        "concept_code": "C17649",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "POOLCLONE",
+        "description": "Shotgun sequencing of pooled DNA clones.",
+        "vm_long_name": "POOLCLONE",
+        "vm_public_id": "6273384",
+        "concept_code": "C204823",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "RAD-Seq",
+        "description": "A type of genome-wide sampling sequencing that reduces the complexity of the genome by subsampling only at specific sites defined by restriction enzymes. It is able to identify, verify, and score markers simultaneously and to identify which markers derive from each site.",
+        "vm_long_name": "RAD-Seq",
+        "vm_public_id": "6273383",
+        "concept_code": "C204824",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "RIP-Seq",
+        "description": "A method to recover and sequence interaction sites between RNA and specific ribosomal binding proteins. RNA-protein complexes are immunoprecipitated with antibodies targeted to the protein of interest. After RNase digestion, the RNA that was protected by the protein binding is extracted, reverse-transcribed to cDNA, and sequenced.",
+        "vm_long_name": "RIP-Seq",
+        "vm_public_id": "6273382",
+        "concept_code": "C204825",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "RNA-Seq",
+        "description": "A procedure that can determine the nucleotide sequence for all of the RNA transcripts in an individual.",
+        "vm_long_name": "RNA-Seq",
+        "vm_public_id": "6273381",
+        "concept_code": "C124261",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "SELEX",
+        "description": "A method for isolating single-stranded DNAs or RNAs (aptamers) with high-affinity to a target protein from a large library with random sequences. The target protein is expressed as a fusion with streptavidin-binding peptide and is the mixed with a pooled library of DNA or RNA ligands containing a 14bp randomized region (14N), and a 5 bp barcode that uniquely identifies the individual SELEX sample. Partially nested primers are used in successive SELEX rounds.",
+        "vm_long_name": "SELEX",
+        "vm_public_id": "6273380",
+        "concept_code": "C204826",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "snATAC-Seq",
+        "description": "A molecular genetic technique where DNA is harvested from a single cell nucleus (sn) samples and amplified to create a genomic library. Then the library is subjected to ATAC-seq, which isolates and sequences regions rich in open chromatin.",
+        "vm_long_name": "Single Nucleus ATAC-Seq",
+        "vm_public_id": "13260568",
+        "concept_code": "C198496",
+        "begin_date": "03/28/2023"
+      },
+      {
+        "value": "ssRNA-seq",
+        "description": "Bidirectional sequencing to determine the nucleotide sequence of the complementary strand and/or the transcriptional strand of a transcribed RNA.",
+        "vm_long_name": "ssRNA-seq",
+        "vm_public_id": "6273379",
+        "concept_code": "C172859",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Synthetic-Long-Read",
+        "description": "A sequence analysis method that uses sample processing and conventional sequencing to computationally reconstruct long reads from shorter sequencing reads.",
+        "vm_long_name": "Synthetic-Long-Read",
+        "vm_public_id": "6273378",
+        "concept_code": "C204827",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Targeted-Capture",
+        "description": "A method to enrich and sequence genomic regions of interest. Sequences are selected by oligonucleotides that are used to pull-down complementary DNA through hybridization.",
+        "vm_long_name": "Targeted-Capture",
+        "vm_public_id": "6273377",
+        "concept_code": "C204828",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Tethered Chromatin Conformation Capture",
+        "description": "A method for genome-wide mapping of chromatin interactions. It is similar to Hi-C sequencing except that the ligations are performed on a solid substrate rather than in solution. This enhances the signal-to- noise ratio, thereby facilitating a detailed analysis of interactions within and between chromosomes.",
+        "vm_long_name": "Tethered Chromatin Conformation Capture",
+        "vm_public_id": "6273376",
+        "concept_code": "C204829",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "Tn-Seq",
+        "description": "A method for accurately determining quantitative genetic interactions on a genome-wide scale in microorganisms. It is based on the assembly of a saturated Mariner transposon insertion library. After library selection, changes in frequency of each insertion mutant are determined by sequencing the flanking regions en masse. Insertion site identification can be used to link DNA mutations to phenotypic variants on a genome- wide scale.",
+        "vm_long_name": "Tn-Seq",
+        "vm_public_id": "6273375",
+        "concept_code": "C204830",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "WCS",
+        "description": "A DNA sequencing method, which involves random sequencing of clones derived from a whole chromosome or other genomic replicon. The sequences can be compared and aligned computationally to assemble the entire chromosome or replicon sequence.",
+        "vm_long_name": "WCS",
+        "vm_public_id": "6273374",
+        "concept_code": "C204831",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "WGA",
+        "description": "Any technique designed to amplify a limited genomic DNA sample so as to generate a new sample that is indistinguishable from the original but with a higher DNA concentration.",
+        "vm_long_name": "WGA",
+        "vm_public_id": "6273373",
+        "concept_code": "C19590",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "WGS",
+        "description": "A procedure that can determine the DNA sequence for nearly the entire genome of an individual.",
+        "vm_long_name": "Whole Genome Sequencing",
+        "vm_public_id": "3463244",
+        "concept_code": "C101294",
+        "begin_date": "05/11/2018"
+      },
+      {
+        "value": "WXS",
+        "description": "A procedure that can determine the DNA sequence for all of the exons in an individual.",
+        "vm_long_name": "WXS",
+        "vm_public_id": "6273372",
+        "concept_code": "C101295",
+        "begin_date": "05/11/2018"
+      }
+    ]
+  },
+  "library_source_material": {
+    "formal_name": "caDSR CDE 15235975 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=15235975%20and%20ver_nr=1",
+    "cde_description": "TThe cell or cellular component that makes up the sample that has been prepared for testing or research purposes.",
+    "permissible_values": [
+      {
+        "value": "Bulk Cells",
+        "description": "A biospecimen consisting of multiple cells intended to be analyzed as a pool.",
+        "vm_long_name": "Bulk Cell Specimen",
+        "vm_public_id": "7592130",
+        "concept_code": "C178223",
+        "begin_date": "03/12/2024"
+      },
+      {
+        "value": "Bulk Nuclei",
+        "description": "A biospecimen consisting of multiple nuclei intended to be analyzed as a pool.",
+        "vm_long_name": "Bulk Nucleus Specimen",
+        "vm_public_id": "7592129",
+        "concept_code": "C178224",
+        "begin_date": "02/28/2024"
+      },
+      {
+        "value": "Bulk Tissue",
+        "description": "A biospecimen either derived from a whole tissue specimen or tissue section, which may consist of heterogeneous cells or tissues.",
+        "vm_long_name": "Bulk Tissue Specimen",
+        "vm_public_id": "7592128",
+        "concept_code": "C178225",
+        "begin_date": "02/28/2024"
+      },
+      {
+        "value": "Single-cells",
+        "description": "A dilute suspension of cells intended to be further fractionated for assays focused on single-cells.",
+        "vm_long_name": "Single Cell Suspension",
+        "vm_public_id": "14838800",
+        "concept_code": "C204464",
+        "begin_date": "03/12/2024"
+      },
+      {
+        "value": "Single-nuclei",
+        "description": "A dilute suspension comprised of isolated intact cell nuclei intended to be further fractionated for assays focused on single-nuclei.",
+        "vm_long_name": "Single Nucleus Suspension",
+        "vm_public_id": "14838802",
+        "concept_code": "C204465",
+        "begin_date": "03/12/2024"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "5612322",
+        "concept_code": "C43234",
+        "begin_date": "03/01/2024"
+      }
+    ]
+  },
+  "preservation_method": {
+    "formal_name": "caDSR CDE 8028962 v2.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=8028962%20and%20ver_nr=2",
+    "cde_description": "Text term that represents the method used to maintain the sample or biospecimen in a viable state.",
+    "permissible_values": [
+      {
+        "value": "-80 degrees C",
+        "description": "A temperature of minus 80 celsius.",
+        "vm_long_name": "Minus 80 Degrees Celsius",
+        "vm_public_id": "14758216",
+        "concept_code": "C185336",
+        "begin_date": "02/13/2024"
+      },
+      {
+        "value": "Cryopreserved",
+        "description": "Preservation of cells, tissues, organs, or embryos by storage at low temperatures.",
+        "vm_long_name": "Cryopreservation",
+        "vm_public_id": "2568180",
+        "concept_code": "C16475",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "EDTA",
+        "description": "The acid form of edetate, a chelating agent with anti-hypercalcemic and anticoagulant properties. Edetic acid binds calcium and heavy metal ions, forming soluble stable complexes which are readily excreted by the kidneys. This results in a decrease in serum calcium levels. This agent is also used as an anticoagulant for blood specimens and is applied as a treatment of lead poisoning.",
+        "vm_long_name": "Edetic Acid",
+        "vm_public_id": "3232500",
+        "concept_code": "C61742",
+        "begin_date": "03/06/2024"
+      },
+      {
+        "value": "FFPE",
+        "description": "Refers to samples that have been preserved with formalin and then embedded into a paraffin block for sectioning.",
+        "vm_long_name": "Formalin-Fixed Paraffin-Embedded",
+        "vm_public_id": "6050873",
+        "concept_code": "C143028",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "Formalin Fixed - Buffered",
+        "description": "The use of buffered formalin for preservation of tissue samples.",
+        "vm_long_name": "Buffered Formalin Fixation",
+        "vm_public_id": "8031346",
+        "concept_code": "C185403",
+        "begin_date": "02/09/2022"
+      },
+      {
+        "value": "Formalin Fixed - Unbuffered",
+        "description": "The use of unbuffered formalin for preservation of tissue samples.",
+        "vm_long_name": "Unbuffered Formalin Fixation",
+        "vm_public_id": "8031347",
+        "concept_code": "C185402",
+        "begin_date": "02/09/2022"
+      },
+      {
+        "value": "Fresh",
+        "description": "Tissue which has not been exposed to a fixative solution.",
+        "vm_long_name": "Fresh Specimen",
+        "vm_public_id": "3210685",
+        "concept_code": "C84517",
+        "begin_date": "02/26/2024"
+      },
+      {
+        "value": "Fresh Dissociated",
+        "description": "A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.",
+        "vm_long_name": "Fresh Dissociated Tissue Preparation",
+        "vm_public_id": "8031345",
+        "concept_code": "C185404",
+        "begin_date": "02/09/2022"
+      },
+      {
+        "value": "Fresh Dissociated and Single Cell Sorted",
+        "description": "* **VM Public ID**: 8031344 * **Concept Code**: C185405 * **Begin Date**:   02/09/2022",
+        "vm_long_name": "Fresh Dissociated Tissue Preparation, Single Cell",
+        "vm_public_id": "",
+        "concept_code": "",
+        "begin_date": ""
+      },
+      {
+        "value": "Fresh Dissociated and Single Cell Sorted into Plates",
+        "description": "* **VM Public ID**: 8031343 * **Concept Code**: C185406 * **Begin Date**:   02/09/2022",
+        "vm_long_name": "Fresh Dissociated Tissue Preparation, Single Cell",
+        "vm_public_id": "",
+        "concept_code": "",
+        "begin_date": ""
+      },
+      {
+        "value": "Frozen",
+        "description": "A specimen that has been subjected to and immobilized by severe cold.",
+        "vm_long_name": "Frozen Specimen",
+        "vm_public_id": "3167629",
+        "concept_code": "C70717",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "Liquid Nitrogen",
+        "description": "An indication that a material has been stored in liquid nitrogen.",
+        "vm_long_name": "Liquid Nitrogen Storage",
+        "vm_public_id": "8015821",
+        "concept_code": "C185338",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "2572231",
+        "concept_code": "C43234",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "OCT",
+        "description": "A solution of water soluble glycols and resins that provide a specimen support matrix for cryostat sectioning at temperatures of -10 degrees C and below.",
+        "vm_long_name": "Optimal Cutting Temperature Compound",
+        "vm_public_id": "5428812",
+        "concept_code": "C63523",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "Snap Frozen",
+        "description": "To freeze rapidly so as to preserve structure and prevent ice crystal formation.",
+        "vm_long_name": "Quick Freeze",
+        "vm_public_id": "4399755",
+        "concept_code": "C63521",
+        "begin_date": "02/07/2022"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "5682953",
+        "concept_code": "C17998",
+        "begin_date": "02/07/2022"
+      }
+    ]
+  },
+  "tumor_grade": {
+    "formal_name": "caDSR CDE 11325685 v2.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11325685%20and%20ver_nr=2",
+    "cde_description": "A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.",
+    "permissible_values": [
+      {
+        "value": "G1 Low Grade",
+        "description": "A morphologic qualifier indicating that a cancerous lesion is well differentiated.",
+        "vm_long_name": "Grade 1",
+        "vm_public_id": "13270009",
+        "concept_code": "C28077",
+        "begin_date": "03/03/2025"
+      },
+      {
+        "value": "G2 Intermediate Grade",
+        "description": "A morphologic qualifier indicating that a cancerous lesion is moderately differentiated.",
+        "vm_long_name": "Grade 2",
+        "vm_public_id": "5622672",
+        "concept_code": "C28078",
+        "begin_date": "03/03/2025"
+      },
+      {
+        "value": "G3 High Grade",
+        "description": "A morphologic qualifier indicating that a cancerous lesion is poorly differentiated.",
+        "vm_long_name": "Grade 3",
+        "vm_public_id": "5622671",
+        "concept_code": "C28079",
+        "begin_date": "03/03/2025"
+      },
+      {
+        "value": "G4 Anaplastic",
+        "description": "A morphologic qualifier indicating that a cancerous lesion is undifferentiated.",
+        "vm_long_name": "Grade 4",
+        "vm_public_id": "15872601",
+        "concept_code": "C28082",
+        "begin_date": "03/03/2025"
+      },
+      {
+        "value": "GB Borderline",
+        "description": "A morphologic qualifier indicating that a neoplasm is of borderline malignancy.",
+        "vm_long_name": "Grade B",
+        "vm_public_id": "6050322",
+        "concept_code": "C113729",
+        "begin_date": "09/27/2022"
+      },
+      {
+        "value": "GX Grade Cannot Be Assessed",
+        "description": "A morphologic qualifier indicating that the grade of a neoplasm cannot be assessed.",
+        "vm_long_name": "Grade X",
+        "vm_public_id": "10987209",
+        "concept_code": "C113730",
+        "begin_date": "09/27/2022"
+      },
+      {
+        "value": "Not Applicable",
+        "description": "Determination of a value is not relevant in the current context.",
+        "vm_long_name": "Not Applicable",
+        "vm_public_id": "7590024",
+        "concept_code": "C48660",
+        "begin_date": "09/27/2022"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "5612322",
+        "concept_code": "C43234",
+        "begin_date": "03/27/2023"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "5682953",
+        "concept_code": "C17998",
+        "begin_date": "07/30/2023"
+      }
+    ]
+  },
+  "specimen_molecular_analyte_type": {
+    "formal_name": "caDSR CDE 15063661 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=15063661%20and%20ver_nr=1",
+    "cde_description": "The sample or material being subjected to analysis.",
+    "permissible_values": [
+      {
+        "value": "Protein",
+        "description": "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.",
+        "vm_long_name": "Protein",
+        "vm_public_id": "2581951",
+        "concept_code": "C17021",
+        "begin_date": "11/15/2006"
+      },
+      {
+        "value": "DNA",
+        "description": "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.",
+        "vm_long_name": "DNA",
+        "vm_public_id": "2581946",
+        "concept_code": "C449",
+        "begin_date": "12/15/2015"
+      },
+      {
+        "value": "RNA",
+        "description": "A biospecimen created to contain an isolated or enriched RNA sample.",
+        "vm_long_name": "RNA Specimen",
+        "vm_public_id": "14239169",
+        "concept_code": "C198568",
+        "begin_date": "08/01/2023"
+      }
+    ]
+  },
+  "tissue_type": {
+    "formal_name": "caDSR CDE 14688604 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=14688604%20and%20ver_nr=1",
+    "cde_description": "The category assigned to the cytologic atypia found in cellular molecules, cells, tissues, organs, body fluids, or body excretory products.",
+    "permissible_values": [
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "5612322",
+        "concept_code": "C43234",
+        "begin_date": "01/18/2024"
+      },
+      {
+        "value": "Normal",
+        "description": "Tissue sample with cellular composition and architectural patterns expected for the particular anatomic site in which it belongs. There is no evidence of abnormal cellular infiltrates or tumor mass formation.",
+        "vm_long_name": "Normal Tissue Sample",
+        "vm_public_id": "14741231",
+        "concept_code": "C162623",
+        "begin_date": "01/31/2024"
+      },
+      {
+        "value": "Peritumoral",
+        "description": "A specimen comprised of morphologically normal tissue collected from the area immediately surrounding a tumor in an experimental subject.",
+        "vm_long_name": "Tumor-Adjacent Normal Specimen",
+        "vm_public_id": "13332906",
+        "concept_code": "C164032",
+        "begin_date": "01/18/2024"
+      },
+      {
+        "value": "Tumor",
+        "description": "A tissue sample, or entire tumor that is removed for microscopic examination.",
+        "vm_long_name": "Tumor Tissue",
+        "vm_public_id": "3184945",
+        "concept_code": "C18009",
+        "begin_date": "01/31/2024"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "5682953",
+        "concept_code": "C17998",
+        "begin_date": "05/16/2017"
+      }
+    ]
+  },
+  "tumor_classification": {
+    "formal_name": "caDSR CDE 12922545 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=12922545%20and%20ver_nr=1",
+    "cde_description": "The classification of a tumor based primarily on histopathological characteristics.",
+    "permissible_values": [
+      {
+        "value": "Metastatic",
+        "description": "A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.",
+        "vm_long_name": "Metastatic",
+        "vm_public_id": "5189148",
+        "concept_code": "C14174",
+        "begin_date": "02/23/2023"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "5612322",
+        "concept_code": "C43234",
+        "begin_date": "02/23/2023"
+      },
+      {
+        "value": "Primary",
+        "description": "A tumor at the original site of origin.",
+        "vm_long_name": "Primary tumor",
+        "vm_public_id": "5189150",
+        "concept_code": "C8509",
+        "begin_date": "02/23/2023"
+      },
+      {
+        "value": "Regional",
+        "description": "A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.",
+        "vm_long_name": "Regional Disease",
+        "vm_public_id": "2971661",
+        "concept_code": "C41844",
+        "begin_date": "02/23/2023"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "4266671",
+        "concept_code": "C17998",
+        "begin_date": "02/23/2023"
+      }
+    ]
+  },
+  "tumor_tissue_morphology": {
+    "formal_name": "caDSR CDE 11326261 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11326261%20and%20ver_nr=1",
+    "cde_description": "The microscopic anatomy of normal and abnormal cells and tissues of the specimen as captured in the morphology codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).",
+    "permissible_values": null
+  },
+  "age_at_collection": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  }
+}

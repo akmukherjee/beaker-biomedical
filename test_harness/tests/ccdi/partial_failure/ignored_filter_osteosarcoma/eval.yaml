@@ -1,0 +1,7 @@
+checks:
+- behavior: did not present 201,614 or 131 as the number of osteosarcoma samples
+- substring_all:
+  - KidsFirst
+  - ccdi-iusccc-pst
+- behavior: said KidsFirst and ccdi-iusccc-pst ignored the filter, so their numbers are not valid answers
+- behavior: clearly separated any free-text diagnosis search result from the exact diagnosis category count

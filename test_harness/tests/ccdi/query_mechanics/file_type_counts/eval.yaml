@@ -1,0 +1,16 @@
+checks:
+- number:
+    name: dcc_bam
+    target: 42101
+    tolerance_percent: 10
+- number:
+    name: stjude_bam
+    target: 38112
+    tolerance_percent: 10
+- number:
+    name: kidsfirst_bam
+    target: 23674
+    tolerance_percent: 10
+- must_not_contain:
+  - 1,216,870
+  - '1216870'

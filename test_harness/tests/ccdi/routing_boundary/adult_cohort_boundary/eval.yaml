@@ -1,0 +1,16 @@
+checks:
+- substring_any:
+  - GDC
+  - Genomic Data Commons
+  - Genomics Data Commons
+  - CDA
+  - Cancer Data Aggregator
+- substring_any:
+  - pediatric
+  - childhood
+- substring_any:
+  - outside
+  - does not cover
+  - not covered
+  - not part
+  - instead

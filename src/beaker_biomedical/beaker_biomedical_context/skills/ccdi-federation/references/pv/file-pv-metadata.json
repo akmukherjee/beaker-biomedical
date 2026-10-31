@@ -1,0 +1,667 @@
+{
+  "type": {
+    "formal_name": "caDSR CDE 11416926 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11416926%20and%20ver_nr=1",
+    "cde_description": "A defined organization or layout representing and structuring data in a computer file.",
+    "permissible_values": [
+      {
+        "value": "ADF",
+        "description": "A tab-delimited file defining how each array in an investigation is used. This data includes what sequence is located at each position in an array and what the annotation of this sequence is; cross-references to entries in a public repository can be used if available.",
+        "vm_long_name": "Array Design Format",
+        "vm_public_id": "11421996",
+        "concept_code": "C172213",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "AVI",
+        "description": "A multimedia container format for audio video interleaved (AVI) files that allows for synchronous audio-with-video playback.",
+        "vm_long_name": "AVI Format",
+        "vm_public_id": "11421997",
+        "concept_code": "C190162",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BAI",
+        "description": "An index file found in the same directory as the binary alignment map (BAM) file, a compressed binary version of a sequence alignment/map (SAM) file.",
+        "vm_long_name": "BAI File",
+        "vm_public_id": "11421998",
+        "concept_code": "C190163",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BAM",
+        "description": "A binary representation of a sequence alignment map (SAM), a compact and indexable representation of nucleotide sequence alignments, compressed by the BGZF (Blocked GNU Zip Format) library.",
+        "vm_long_name": "Binary Alignment Map",
+        "vm_public_id": "6356231",
+        "concept_code": "C153249",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BCR Biotab",
+        "description": "Files that consist of aggregate clinical and biospecimen data across all cases of the given project. Biotab files are supplemental files that are available in the Genomic Data Commons (GDC) Legacy Archive as tab-delimited files on a project level basis. These may also include fields that are not available in the GDC application programming interface (API).",
+        "vm_long_name": "BCR Biotab Format",
+        "vm_public_id": "11421999",
+        "concept_code": "C190164",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BED",
+        "description": "A tab-delimited text file format that allows the specification of the sequence data that is displayed in an annotation track. The minimum required information is chromosome, start position, and end position.",
+        "vm_long_name": "BED Format",
+        "vm_public_id": "11422000",
+        "concept_code": "C153367",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "bedgraph",
+        "description": "A format that allows display of continuous-valued data in track format. This display type is useful for probability scores and transcriptome data.",
+        "vm_long_name": "Bedgraph Format",
+        "vm_public_id": "11422001",
+        "concept_code": "C190165",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BEDPE Format",
+        "description": "A text file format used to store genomic paired-end sequencing data that includes coordinates and associated metadata.",
+        "vm_long_name": "BEDPE Format",
+        "vm_public_id": "14535229",
+        "concept_code": "C184749",
+        "begin_date": "10/16/2023"
+      },
+      {
+        "value": "bigBed",
+        "description": "A format for large sequence annotation tracks, similar to the textual browser extensible data (BED) format. The annotated items can be either simple or a linked collection of exons.",
+        "vm_long_name": "BigBed Format",
+        "vm_public_id": "11422002",
+        "concept_code": "C190166",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "bigWig",
+        "description": "A format for large sequence annotation tracks that consist of a value for each sequence position, similar to the textual wiggle (WIG) format.",
+        "vm_long_name": "BigWig Format",
+        "vm_public_id": "11422003",
+        "concept_code": "C190167",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "Binary Format",
+        "description": "A file format in which file information is stored in the form of ones and zeros. It can be easily converted to text representations for visualization and editing.",
+        "vm_long_name": "Binary Format",
+        "vm_public_id": "11422004",
+        "concept_code": "C190168",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "BIOM",
+        "description": "A general-use format for representing biological sample by observation contingency tables. It is designed for general use in broad areas of comparative -omics. The primary use of this format is to represent operational taxonomic unit (OTU) and metagenome tables.",
+        "vm_long_name": "BIOM Format",
+        "vm_public_id": "11422059",
+        "concept_code": "C190169",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "cdf",
+        "description": "A file that provides information about the probes contained within an Affymetrix expression microarray probe set.",
+        "vm_long_name": "Affymetrix Probe Sets Library File",
+        "vm_public_id": "15354255",
+        "concept_code": "C209894",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "CEL",
+        "description": "A type of file that stores the results of intensity calculations of pixel values for DNA microarray image analysis. The data includes an intensity value, standard deviation of the intensity, the number of pixels used to calculate the intensity value, a flag to indicate an outlier as calculated by the algorithm, and a user defined flag indicating whether the feature should be excluded from future analysis. The file also stores the previously stated data for each feature on the probe array.",
+        "vm_long_name": "Affymetrix CEL Format",
+        "vm_public_id": "12135194",
+        "concept_code": "C191737",
+        "begin_date": "12/12/2022"
+      },
+      {
+        "value": "CNS",
+        "description": "A gene expression report format that utilizes a graph with genes, proteins, and molecules represented as node and their interactions represented as links.",
+        "vm_long_name": "Cytoscape Input File Format",
+        "vm_public_id": "15354253",
+        "concept_code": "C209889",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "CRAI",
+        "description": "An external index file created by the sequencing data archive alongside a compressed reference-oriented alignment map (CRAM) file. This index file is available in the same directory as the CRAM file and is required for selective access to the genomic sequence alignment data within the CRAM file.",
+        "vm_long_name": "CRAI File",
+        "vm_public_id": "12517496",
+        "concept_code": "C192224",
+        "begin_date": "02/01/2023"
+      },
+      {
+        "value": "CRAM",
+        "description": "A more highly compressed alternative to the BAM and SAM DNA sequence alignment file formats. It uses reference based compression, with only base calls that differ from a designated reference sequence being stored.",
+        "vm_long_name": "CRAM Format",
+        "vm_public_id": "11422061",
+        "concept_code": "C190170",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "CSV",
+        "description": "A text file format that separates data elements with commas.",
+        "vm_long_name": "Comma Separated Values Format",
+        "vm_public_id": "7797849",
+        "concept_code": "C182456",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "DICOM",
+        "description": "A comprehensive set of standards for communications between medical imaging devices, including handling, storing and transmitting information in medical imaging. It includes a file format definition and a network communication protocol.",
+        "vm_long_name": "DICOM",
+        "vm_public_id": "2967848",
+        "concept_code": "C49059",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "DICT",
+        "description": "The simple flat file format of an entry from the HET group dictionary, a PDB file resource for ligand groups that are found complexed to protein structures.",
+        "vm_long_name": "HET Group Dictionary Entry Format",
+        "vm_public_id": "15354254",
+        "concept_code": "C209890",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "DOC",
+        "description": "A Microsoft proprietary Binary Interchange file format used for word processing documents. It was replaced with DOCX format in 2007.",
+        "vm_long_name": "DOC Format",
+        "vm_public_id": "15354330",
+        "concept_code": "C210442",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "DOCX",
+        "description": "A file type that uses Open XML Document format to store data for Microsoft Word and other compatible programs.",
+        "vm_long_name": "DOCX Format",
+        "vm_public_id": "11422062",
+        "concept_code": "C190171",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "DSV",
+        "description": "A delimiter-separated values file that contains plain text data divided into rows and columns by a designated special character.",
+        "vm_long_name": "DSV Format",
+        "vm_public_id": "11422063",
+        "concept_code": "C190172",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "FASTA",
+        "description": "A sequence in FASTA format consists of a single-line description, followed by lines of sequence data. The first character of the description line is a greater-than (\">\") symbol in the first column. Sequences are represented in the standard IUB/IUPAC single letter amino acid and nucleic acid codes, with a single hyphen or dash being used to represent a gap of indeterminate length; in amino acid sequences asterix (\"*\") can represent a translation stop.",
+        "vm_long_name": "FASTA Format",
+        "vm_public_id": "11422064",
+        "concept_code": "C47845",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "FASTQ",
+        "description": "A a tab-delimited containing information about an investigation, including its name, a description, the investigator's contact details, bibliographic references, and free text descriptions of any relevant protocols.",
+        "vm_long_name": "Investigation Description Format",
+        "vm_public_id": "11422065",
+        "concept_code": "C172212",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "GCT/Res Format",
+        "description": "A tab-delimited text file that contains gene expression data as a column for each sample, a row for each gene, and an expression value for each gene in each sample. RES differs from GCT by having labels for each gene's absent (A) versus present (P) calls as generated by Affymetrix's GeneChip software.",
+        "vm_long_name": "GCT/RES Format",
+        "vm_public_id": "11422066",
+        "concept_code": "C190173",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "GenBank Format",
+        "description": "A type of flat file format that allows for the storage of DNA or protein sequences and annotations. It consists of an annotation section and a sequence section.",
+        "vm_long_name": "GenBank Format",
+        "vm_public_id": "11422129",
+        "concept_code": "C190174",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "GFF3",
+        "description": "A tab-separated format for sequence data. It uses one line per feature, each containing 9 columns of data, plus optional track definition lines.",
+        "vm_long_name": "General Feature Format Version 3",
+        "vm_public_id": "11422130",
+        "concept_code": "C190175",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "GPR",
+        "description": "A tab-delimited text file format developed by Axon Instruments and used to export data from the microarray image analysis tool GenePix.",
+        "vm_long_name": "GenePix Results Format",
+        "vm_public_id": "11422131",
+        "concept_code": "C190176",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "GTF",
+        "description": "A tab-delimited text format based on the general feature format (GFF) but which also contains some additional information for each gene.",
+        "vm_long_name": "GTF Format",
+        "vm_public_id": "11422132",
+        "concept_code": "C190177",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "gVCF",
+        "description": "A text file format used for storing gene sequence variations. It is a type of variant call format that has a record for all sites, whether there is a variant call there or not. The format includes metrics of the confidence that positions are actually non-variant vs. a factor of minimum read-depth and genotype quality.",
+        "vm_long_name": "Genomic Variant Call Format",
+        "vm_public_id": "14818706",
+        "concept_code": "C204352",
+        "begin_date": "03/04/2024"
+      },
+      {
+        "value": "GZIP Format",
+        "description": "A file format consisting of a 10-byte header containing a magic number, a version number, and a timestamp, a Deflate-compressed body, and an 8-byte footer containing a checksum and the length of the original uncompressed data.",
+        "vm_long_name": "Gzip File Format",
+        "vm_public_id": "2929849",
+        "concept_code": "C80220",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "HDF5",
+        "description": "A hierarchical, filesystem-like data format that can store metadata in the form of user-defined, named attributes, which are attached to groups and datasets, and representations of images and tables built up using datasets, groups and attributes.",
+        "vm_long_name": "Hierarchical Data Format 5",
+        "vm_public_id": "11422133",
+        "concept_code": "C184763",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "HIC",
+        "description": "An indexed binary format designed to permit fast random access to contact matrix heatmaps.",
+        "vm_long_name": "HIC File Format",
+        "vm_public_id": "14728934",
+        "concept_code": "C203672",
+        "begin_date": "01/25/2024"
+      },
+      {
+        "value": "HTML",
+        "description": "A standard markup language used to display content on a web page, as specified by the World Wide Web Consortium (W3C).",
+        "vm_long_name": "Hypertext Markup Language",
+        "vm_public_id": "11422134",
+        "concept_code": "C142380",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "HTSeq Count",
+        "description": "A tab-delimited file generated by the HTSeq Count software tool. The file represents the number of reads obtained during high-throughput sequencing that map to known genomic sequences. The data is represented in two columns, one containing an identifier for a genomic feature, which can be a database-supplied identifier or a gene symbol, followed by a second column containing the number of mapped reads.",
+        "vm_long_name": "HTSeq-Count Output Format",
+        "vm_public_id": "14943335",
+        "concept_code": "C205749",
+        "begin_date": "05/23/2024"
+      },
+      {
+        "value": "IDAT",
+        "description": "A proprietary, encrypted XML-based, compressed electronic file format from Illumina Inc. for storing genome-wide profiling data. The data contains a summary of the intensity data generated from each probe used during a sequencing run.",
+        "vm_long_name": "IDAT Format",
+        "vm_public_id": "11495707",
+        "concept_code": "C184762",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "IDF",
+        "description": "A a tab-delimited containing information about an investigation, including its name, a description, the investigator's contact details, bibliographic references, and free text descriptions of any relevant protocols.",
+        "vm_long_name": "Investigation Description Format",
+        "vm_public_id": "11422065",
+        "concept_code": "C172212",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "idpDB",
+        "description": "A self-contained file format that utilizes an open-source protein assembly tool to view and filter peptide-spectrum-matches, and stores relationships between proteins, peptides, and spectra.",
+        "vm_long_name": "IDPicker File Format",
+        "vm_public_id": "15354267",
+        "concept_code": "C209893",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "JPEG",
+        "description": "A file compression format mostly used for color and greyscale photographs.",
+        "vm_long_name": "JPEG",
+        "vm_public_id": "11422138",
+        "concept_code": "C48230",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "JPEG 2000",
+        "description": "A discrete wavelet transform (DWT)-based compression standard electronic file format for storing video images.",
+        "vm_long_name": "JPEG 2000 Format",
+        "vm_public_id": "11422135",
+        "concept_code": "C184768",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "JSON",
+        "description": "A common open standard file format and data interchange format that uses human-readable text consisting of attribute-value pairs and arrays to store and transmit data.",
+        "vm_long_name": "JSON Format",
+        "vm_public_id": "11422136",
+        "concept_code": "C184769",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "MAF",
+        "description": "A tab-delimited text file containing mutation information aggregated from variant call files (VCF) across a project, trial or study.",
+        "vm_long_name": "Mutation Annotation Format",
+        "vm_public_id": "11422137",
+        "concept_code": "C172215",
+        "begin_date": "10/26/2022"
+      },
+      {
+        "value": "MAGE-TAB",
+        "description": "A tab-delimited, spreadsheet-based format that can be used for annotating and communicating microarray data in a MIAME (Minimum Information About a Microarray Experiment) compliant fashion.",
+        "vm_long_name": "MAGE-TAB",
+        "vm_public_id": "2953599",
+        "concept_code": "C82937",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "MAT",
+        "description": "A proprietary, binary data container format used by MATLAB software to store workspace variables.",
+        "vm_long_name": "MAT Format",
+        "vm_public_id": "11422139",
+        "concept_code": "C190178",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "MATLAB Script",
+        "description": "A file that contains MATLAB commands and function calls.",
+        "vm_long_name": "MATLAB Script File",
+        "vm_public_id": "11422140",
+        "concept_code": "C190179",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "MEX",
+        "description": "A minimal base ASCII file format to facilitate the exchange of data matrices.",
+        "vm_long_name": "MEX Format",
+        "vm_public_id": "14532371",
+        "concept_code": "C184778",
+        "begin_date": "10/13/2023"
+      },
+      {
+        "value": "MPEG-4",
+        "description": "A multimedia file that is commonly used to store  video and audio data.",
+        "vm_long_name": "MP4 Format",
+        "vm_public_id": "11422141",
+        "concept_code": "C190180",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "mtx",
+        "description": "A format for the storage of numerical or pattern matrices in a dense (array format) or sparse (coordinate format) representation.",
+        "vm_long_name": "mtx",
+        "vm_public_id": "14534322",
+        "concept_code": "C201789",
+        "begin_date": "10/16/2023"
+      },
+      {
+        "value": "mzIdentML",
+        "description": "An exchange format for peptides and proteins identified from mass spectra.",
+        "vm_long_name": "mzIdentML",
+        "vm_public_id": "14534321",
+        "concept_code": "C201788",
+        "begin_date": "10/16/2023"
+      },
+      {
+        "value": "mzML",
+        "description": "An open-source format for mass spectrometer output files that was designed to be utilized and adapted as advances in mass spectrometry technology proceed. This was standardized by the Human Proteome Organization (HUPO)-Proteomics Standards Initiative (PSI) Mass Spectrometry Standards (MSS) Working Group.",
+        "vm_long_name": "Mass Spectrometry Markup Language",
+        "vm_public_id": "11422142",
+        "concept_code": "C190181",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "mzXML",
+        "description": "An XML based common file format for mass spectrometry data.",
+        "vm_long_name": "Mass Spectrometry Extensible Markup Language",
+        "vm_public_id": "11422143",
+        "concept_code": "C47924",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "NIFTI Format",
+        "description": "An open file format used to store neuroscience and neuroradiology imaging data obtained by MRI. The raw image data in NIfTI is saved as a 3d image.",
+        "vm_long_name": "NIfTI Format",
+        "vm_public_id": "11422144",
+        "concept_code": "C190183",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "OME-TIFF",
+        "description": "A tagged image file format (TIFF) image file format that contains an Open Microscopy Environment (OME) XML metadata block in the file header for storing microscopy information (pixels and metadata) using the OME Data Model.",
+        "vm_long_name": "Open Microscopy Environment Tagged Image File Format",
+        "vm_public_id": "11422196",
+        "concept_code": "C181618",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "PDF",
+        "description": "An open file format created and controlled by Adobe Systems, for representing two-dimensional documents in a device independent and resolution independent fixed-layout document format. Each PDF file encapsulates a complete description of a 2D document that includes the text, fonts, images, and 2D vector graphics that compose the document. PDF files do not encode information that is specific to the application software, hardware, or operating system used to create or view the document. This feature ensures that a valid PDF will render exactly the same regardless of its origin or destination (but depending on font availability when fonts are not encapsulated in the file).",
+        "vm_long_name": "Portable Document Format",
+        "vm_public_id": "2967828",
+        "concept_code": "C63805",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "PED",
+        "description": "A standard text format for sample pedigree information and storage of marker genotypes, disease status, and quantitative trait values.",
+        "vm_long_name": "Pedigree File Format",
+        "vm_public_id": "15092262",
+        "concept_code": "C209891",
+        "begin_date": "09/04/2024"
+      },
+      {
+        "value": "Plain Text Data Format",
+        "description": "A data format consisting of readable textual material maintained as a sequential file.",
+        "vm_long_name": "Plain Text Data Format",
+        "vm_public_id": "11422197",
+        "concept_code": "C85873",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "PNG",
+        "description": "An extensible file format for lossless data compression of images.",
+        "vm_long_name": "Portable Network Graphics",
+        "vm_public_id": "11422198",
+        "concept_code": "C85437",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "Python Script Format",
+        "description": "A plain text file that stores python code.",
+        "vm_long_name": "Python Script Format",
+        "vm_public_id": "11422199",
+        "concept_code": "C190184",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "R File Format",
+        "description": "A file format used for writing scripts in the R programming language for execution within the R software environment, typically for statistical computation and graphics.",
+        "vm_long_name": "R Format",
+        "vm_public_id": "11422200",
+        "concept_code": "C190186",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "R Markdown",
+        "description": "A file format for making dynamic documents written in R. It is written in plain text format and contains chunks of embedded R code.",
+        "vm_long_name": "R Markdown Format",
+        "vm_public_id": "11422201",
+        "concept_code": "C190187",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "rds",
+        "description": "A binary file format that provides a method for saving R data sets and other objects.",
+        "vm_long_name": "Reference Data Set File Format",
+        "vm_public_id": "15354268",
+        "concept_code": "C209895",
+        "begin_date": "12/02/2024"
+      },
+      {
+        "value": "RTF",
+        "description": "A file format that contains various formatting elements and enables exchanges of text files across different word processing platforms and applications.",
+        "vm_long_name": "Rich Text Format",
+        "vm_public_id": "15092264",
+        "concept_code": "C209896",
+        "begin_date": "09/04/2024"
+      },
+      {
+        "value": "SDRF",
+        "description": "A tab-delimited file describing the relationships between samples, arrays, data and other objects used or produced during a microarray experiment.",
+        "vm_long_name": "Sample and Data Relationship Format",
+        "vm_public_id": "11422202",
+        "concept_code": "C172211",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "SEG",
+        "description": "A tab-delimited text file that is the tabular output of the Circular Binary Segmentation algorithm implemented in DNAcopy and lists loci and associated numeric values.",
+        "vm_long_name": "Segmented Data Format",
+        "vm_public_id": "15092263",
+        "concept_code": "C209892",
+        "begin_date": "09/04/2024"
+      },
+      {
+        "value": "Sequence Record Format",
+        "description": "Any file format designed to store molecular sequence data.",
+        "vm_long_name": "Sequence Record Format",
+        "vm_public_id": "11422203",
+        "concept_code": "C190188",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "SVG",
+        "description": "A specification for describing vector graphics using extensible markup language.",
+        "vm_long_name": "Scalable Vector Graphics",
+        "vm_public_id": "11422204",
+        "concept_code": "C85435",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "SVS",
+        "description": "An electronic file format based on TIFF that is used for storing multiple high-resolution images in a single electronic file.",
+        "vm_long_name": "Spectral View Settings Format",
+        "vm_public_id": "11426797",
+        "concept_code": "C172214",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "TAR",
+        "description": "A file format generated by the Unix command-line utility tar (tape archive). It is used for collecting many files into one archive file.",
+        "vm_long_name": "TAR Format",
+        "vm_public_id": "11426798",
+        "concept_code": "C190189",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "TBI",
+        "description": "A tab-delimited file that contains an index for the genome positions in a compressed (zipped) variant call format file.",
+        "vm_long_name": "TBI Format",
+        "vm_public_id": "15042846",
+        "concept_code": "C184806",
+        "begin_date": "08/19/2024"
+      },
+      {
+        "value": "Thermo RAW",
+        "description": "A proprietary file format developed by Thermo Scientific to capture mass spectrometry data produced by Thermo mass spectrometers.",
+        "vm_long_name": "Thermo RAW Format",
+        "vm_public_id": "11426799",
+        "concept_code": "C190190",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "TIFF",
+        "description": "A bitmap graphics file format utilizing tagged fields.",
+        "vm_long_name": "TIFF",
+        "vm_public_id": "11426800",
+        "concept_code": "C70631",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "TSV",
+        "description": "A file format where each line in the file contains a single piece of data and where each field or value in a line of data is separated from the next by a tab character.",
+        "vm_long_name": "Tab-Separated Value Format",
+        "vm_public_id": "11426801",
+        "concept_code": "C164049",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "TXT",
+        "description": "A data format consisting of readable textual material maintained as a sequential file.",
+        "vm_long_name": "Plain Text Data Format",
+        "vm_public_id": "11422197",
+        "concept_code": "C85873",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "VCF",
+        "description": "A text-based electronic file used for storing gene sequence variation data. The first text section is composed of a header containing the metadata and keywords used in the file. This is followed by the body of the file which is tab-separated into eight mandatory data columns for each sample. Additionally, the body of the file can include an unlimited number of optional columns to record other sample-related data.",
+        "vm_long_name": "Variant Call File Format",
+        "vm_public_id": "11426802",
+        "concept_code": "C172216",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "XLS",
+        "description": "A proprietary binary file format used to store spreadsheet data in Microsoft Excel.",
+        "vm_long_name": "XLS Format",
+        "vm_public_id": "11426803",
+        "concept_code": "C190191",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "XLSX",
+        "description": "A proprietary file format developed by Microsoft that allows the user to save a spreadsheet created in Excel in an open XML-format. The file then can be read and opened by other spreadsheet-compatible applications.",
+        "vm_long_name": "Excel Open XML Format",
+        "vm_public_id": "11426804",
+        "concept_code": "C164050",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "XML",
+        "description": "Extensible Markup Language",
+        "vm_long_name": "Extensible Markup Language",
+        "vm_public_id": "2581637",
+        "concept_code": "C45967",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "YAML",
+        "description": "A human-readable, tree-structured data-serialization language often used to create configuration files.",
+        "vm_long_name": "YAML Language",
+        "vm_public_id": "11426805",
+        "concept_code": "C190193",
+        "begin_date": "10/12/2022"
+      },
+      {
+        "value": "ZIP",
+        "description": "An archive file format that supports lossless data compression. It is used to compress one or more files together into a single location.",
+        "vm_long_name": "ZIP Format",
+        "vm_public_id": "11426806",
+        "concept_code": "C190192",
+        "begin_date": ""
+      }
+    ]
+  },
+  "size": {
+    "formal_name": "caDSR CDE 11479876 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11479876%20and%20ver_nr=1",
+    "cde_description": "The measure (in bytes) of how much space a data file takes up on a storage medium.",
+    "permissible_values": null
+  },
+  "checksums.md5": {
+    "formal_name": "caDSR CDE 11556150 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11556150%20and%20ver_nr=1",
+    "cde_description": "A 32-character hexadecimal number that is computed on a file.",
+    "permissible_values": null
+  },
+  "description": {
+    "formal_name": "caDSR CDE 11280338 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=11280338%20and%20ver_nr=1",
+    "cde_description": "A free text field that can be used to document the content and other details about an electronic file that may not be captured elsewhere.",
+    "permissible_values": null
+  }
+}

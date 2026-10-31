@@ -30,6 +30,7 @@ SERVICE_TO_SKILL = {
     "icdc": "integrated-canine-data-commons",
     "ctdc": "clinical-translational-data-commons",
     "psdc": "population-sciences-data-commons",
+    "ccdi": "ccdi-federation",
 }
 
 

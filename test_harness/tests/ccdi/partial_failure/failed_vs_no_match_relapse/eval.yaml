@@ -1,0 +1,11 @@
+checks:
+- number:
+    name: dcc_relapse
+    target: 308
+    tolerance_percent: 15
+- number:
+    name: kidsfirst_relapse
+    target: 52
+    tolerance_percent: 15
+- substring: PCDC
+- behavior: distinguished PCDC being unable to answer from the sources that returned zero matches

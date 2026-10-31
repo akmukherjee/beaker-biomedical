@@ -1,0 +1,15 @@
+checks:
+- set_contains:
+    name: sources
+    members:
+    - PCDC
+    - Treehouse
+    - StJude
+    - KidsFirst
+    - ccdi-ecDNA
+    - ccdi-iusccc-pst
+    - CCDI-DCC
+- substring_any:
+  - 1.0.0
+- substring_any:
+  - 1.3.1

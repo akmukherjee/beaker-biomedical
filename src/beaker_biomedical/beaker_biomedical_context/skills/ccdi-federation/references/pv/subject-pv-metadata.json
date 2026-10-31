@@ -1,0 +1,230 @@
+{
+  "sex": {
+    "formal_name": "caDSR CDE 6343385 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=6343385%20and%20ver_nr=1",
+    "cde_description": "Sex of the subject as determined by the investigator.",
+    "permissible_values": [
+      {
+        "value": "U",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "5682944",
+        "concept_code": "C17998",
+        "begin_date": "06/27/2018"
+      },
+      {
+        "value": "F",
+        "description": "A person who belongs to the sex that normally produces ova. The term is used to indicate biological sex distinctions, or cultural gender role distinctions, or both.",
+        "vm_long_name": "Female",
+        "vm_public_id": "2567172",
+        "concept_code": "C16576",
+        "begin_date": "06/27/2018"
+      },
+      {
+        "value": "M",
+        "description": "A person who belongs to the sex that normally produces sperm. The term is used to indicate biological sex distinctions, cultural gender role distinctions, or both.",
+        "vm_long_name": "Male",
+        "vm_public_id": "2567171",
+        "concept_code": "C20197",
+        "begin_date": "06/27/2018"
+      },
+      {
+        "value": "UNDIFFERENTIATED",
+        "description": "A person (one of unisexual specimens) who is born with genitalia and/or secondary sexual characteristics of indeterminate sex, or which combine features of both sexes.",
+        "vm_long_name": "Intersex",
+        "vm_public_id": "2575558",
+        "concept_code": "C45908",
+        "begin_date": "06/27/2018"
+      }
+    ]
+  },
+  "race": {
+    "formal_name": "caDSR CDE 2192199 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2192199%20and%20ver_nr=1",
+    "cde_description": "The text for reporting information about race based on the Office of Management and Budget (OMB) categories.",
+    "permissible_values": [
+      {
+        "value": "Not allowed to collect",
+        "description": "An indicator that specifies that a collection event was not permitted.",
+        "vm_long_name": "Not Allowed To Collect",
+        "vm_public_id": "6662191",
+        "concept_code": "C141478",
+        "begin_date": "03/06/2019"
+      },
+      {
+        "value": "Native Hawaiian or other Pacific Islander",
+        "description": "Denotes a person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. The term covers particularly people who identify themselves as part-Hawaiian, Native Hawaiian, Guamanian or Chamorro, Carolinian, Samoan, Chuukese (Trukese), Fijian, Kosraean, Melanesian, Micronesian, Northern Mariana Islander, Palauan, Papua New Guinean, Pohnpeian, Polynesian, Solomon Islander, Tahitian, Tokelauan, Tongan, Yapese, or Pacific Islander, not specified.",
+        "vm_long_name": "Native Hawaiian or Other Pacific Islander",
+        "vm_public_id": "2572235",
+        "concept_code": "C41219",
+        "begin_date": "05/31/2002"
+      },
+      {
+        "value": "Not Reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "2572578",
+        "concept_code": "C43234",
+        "begin_date": "10/16/2003"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "2572577",
+        "concept_code": "C17998",
+        "begin_date": "02/11/2002"
+      },
+      {
+        "value": "American Indian or Alaska Native",
+        "description": "A person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. (OMB)",
+        "vm_long_name": "American Indian or Alaska Native",
+        "vm_public_id": "2572232",
+        "concept_code": "C41259",
+        "begin_date": "05/31/2002"
+      },
+      {
+        "value": "Asian",
+        "description": "A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. (OMB)",
+        "vm_long_name": "Asian",
+        "vm_public_id": "2572233",
+        "concept_code": "C41260",
+        "begin_date": "05/31/2002"
+      },
+      {
+        "value": "Black or African American",
+        "description": "A person having origins in any of the Black racial groups of Africa. Terms such as \"Haitian\" or \"Negro\" can be used in addition to \"Black or African American\". (OMB)",
+        "vm_long_name": "Black or African American",
+        "vm_public_id": "2572313",
+        "concept_code": "C16352",
+        "begin_date": "05/31/2002"
+      },
+      {
+        "value": "White",
+        "description": "Denotes person with European, Middle Eastern, or North African ancestral origin who identifies, or is identified, as White.",
+        "vm_long_name": "White",
+        "vm_public_id": "2572236",
+        "concept_code": "C41261",
+        "begin_date": "05/31/2002"
+      }
+    ]
+  },
+  "ethnicity": {
+    "formal_name": "caDSR CDE 2192217 v2.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2192217%20and%20ver_nr=2",
+    "cde_description": "The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.",
+    "permissible_values": [
+      {
+        "value": "Not allowed to collect",
+        "description": "An indicator that specifies that a collection event was not permitted.",
+        "vm_long_name": "Not Allowed To Collect",
+        "vm_public_id": "6662191",
+        "concept_code": "C141478",
+        "begin_date": "03/06/2019"
+      },
+      {
+        "value": "Hispanic or Latino",
+        "description": "A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. The term, \"Spanish origin,\" can be used in addition to \"Hispanic or Latino.\" (OMB)",
+        "vm_long_name": "Hispanic or Latino",
+        "vm_public_id": "2581176",
+        "concept_code": "C17459",
+        "begin_date": "05/20/2002"
+      },
+      {
+        "value": "Not Hispanic or Latino",
+        "description": "A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.",
+        "vm_long_name": "Not Hispanic or Latino",
+        "vm_public_id": "2567110",
+        "concept_code": "C41222",
+        "begin_date": "05/20/2002"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "2572577",
+        "concept_code": "C17998",
+        "begin_date": "07/09/2002"
+      },
+      {
+        "value": "Not reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "2572578",
+        "concept_code": "C43234",
+        "begin_date": "10/16/2003"
+      }
+    ]
+  },
+  "identifiers": {
+    "formal_name": "caDSR CDE 6380049 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=6380049%20and%20ver_nr=1",
+    "cde_description": "A unique subject identifier within a site and a study.",
+    "permissible_values": null
+  },
+  "vital_status": {
+    "formal_name": "caDSR CDE 2847330 v1.00",
+    "cadsr_link": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2847330%20and%20ver_nr=1",
+    "cde_description": "The response to a question that describes a participant's survival status.",
+    "permissible_values": [
+      {
+        "value": "Not reported",
+        "description": "Not provided or available.",
+        "vm_long_name": "Not Reported",
+        "vm_public_id": "2572231",
+        "concept_code": "C43234",
+        "begin_date": "12/29/2020"
+      },
+      {
+        "value": "Alive",
+        "description": "Showing characteristics of life; displaying signs of life.",
+        "vm_long_name": "Alive",
+        "vm_public_id": "2580948",
+        "concept_code": "C37987",
+        "begin_date": "03/09/2009"
+      },
+      {
+        "value": "Dead",
+        "description": "The absence of life or state of being dead.",
+        "vm_long_name": "Death",
+        "vm_public_id": "2847328",
+        "concept_code": "C28554",
+        "begin_date": "03/09/2009"
+      },
+      {
+        "value": "Unknown",
+        "description": "Not known, not observed, not recorded, or refused.",
+        "vm_long_name": "Unknown",
+        "vm_public_id": "2575365",
+        "concept_code": "C17998",
+        "begin_date": "03/09/2009"
+      },
+      {
+        "value": "Unspecified",
+        "description": "Not stated explicitly or in detail.",
+        "vm_long_name": "Unspecified",
+        "vm_public_id": "2573360",
+        "concept_code": "C38046",
+        "begin_date": "03/09/2009"
+      }
+    ]
+  },
+  "age_at_vital_status": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  },
+  "associated_diagnoses": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  },
+  "associated_diagnosis_categories": {
+    "formal_name": null,
+    "cadsr_link": null,
+    "cde_description": null,
+    "permissible_values": null
+  }
+}

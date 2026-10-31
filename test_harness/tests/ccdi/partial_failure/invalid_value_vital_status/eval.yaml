@@ -1,0 +1,11 @@
+checks:
+- substring_all:
+  - Alive
+  - Dead
+- substring_any:
+  - not a valid
+  - not valid
+  - invalid
+  - not a permissible
+  - not a recognized
+- behavior: answered the question at the start of the response rather than only giving a breakdown of other values
