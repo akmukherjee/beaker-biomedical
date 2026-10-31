@@ -42,10 +42,15 @@ an LLM API key and `docker-compose up`.
 | Integrated Canine Data Commons (ICDC) | `integrated-canine-data-commons` | GraphQL |
 | Clinical and Translational Data Commons (CTDC) | `clinical-translational-data-commons` | GraphQL |
 | Population Sciences Data Commons (PS-DC) | `population-sciences-data-commons` | GraphQL (prototype) |
+| CCDI Data Federation | `ccdi-federation` | REST API (metadata only) |
 
 
 CDA is the cross-cutting entry point: it *locates* data across all the repositories (returning DRS
 URIs), then hands off to the repository-specific skill for deep analysis or download.
+
+The CCDI Data Federation is not a CRDC commons. It is a separate NCI API for childhood and pediatric
+cancer metadata that fans out one request to several independent source servers and returns one result
+per source. It is included here as a specialist skill for pediatric questions.
 
 ---
 
@@ -63,6 +68,8 @@ All skills live in the [`skills/`](skills/) directory and are mounted into the c
 - **[`skills/integrated-canine-data-commons/SKILL.md`](skills/integrated-canine-data-commons/SKILL.md)**: ICDC comparative oncology: canine cancer studies, faceted cohort building (breed/diagnosis/…), clinical-trial data, DRS file manifests, GraphQL.
 - **[`skills/clinical-translational-data-commons/SKILL.md`](skills/clinical-translational-data-commons/SKILL.md)**: CTDC clinical/translational trial data: participants with CTEP-coded diagnoses, targeted/non-targeted therapy, surgery, radiotherapy, biospecimens; faceted cohort building, per-study clinical node data, DRS files, GraphQL.
 - **[`skills/population-sciences-data-commons/SKILL.md`](skills/population-sciences-data-commons/SKILL.md)**: PS-DC population-science screening cohorts (NLST, PLCO, PBCS): study metadata, demographics, cancer sites, data-collection scope, faceted study search, study-level DRS files, GraphQL. New prototype — study-level queries only (participant-level endpoints not yet live).
+
+- **[`ccdi-federation/SKILL.md`](src/beaker_biomedical/beaker_biomedical_context/skills/ccdi-federation/SKILL.md)**: CCDI Data Federation: pediatric cancer subject, sample, and file metadata across its source servers, per-source counts, filters, and free-text diagnosis search. No API key is required. Adapted from [`CBIIT/ccdi-federation-ai`](https://github.com/CBIIT/ccdi-federation-ai) under the Apache License 2.0 (see [`NOTICE.md`](src/beaker_biomedical/beaker_biomedical_context/skills/ccdi-federation/NOTICE.md)). Unlike the other skills, it ships tested Python helpers in [`scripts/ccdi_helpers.py`](src/beaker_biomedical/beaker_biomedical_context/skills/ccdi-federation/scripts/ccdi_helpers.py), which the agent imports instead of writing its own calls, and it reads the current sources and API spec live.
 
 The **Imaging Data Commons (IDC)** skill is not vendored in this repo. It is referenced by URL in
 [`skills.json`](skills.json) and pulled in at runtime from the upstream
@@ -120,6 +127,7 @@ set-membership / regex / behavioral assertions), so the corpus is authoritative 
 - **[`test_harness/tests/icdc/`](test_harness/tests/icdc/)**: ICDC (`integrated-canine-data-commons`) — faceted cohort building, controlled-vocabulary (empty ≠ absent), mapping one dog across studies, per-study clinical detail + the empty-node trap, and files → DRS → manifest.
 - **[`test_harness/tests/ctdc/`](test_harness/tests/ctdc/)**: CTDC (`clinical-translational-data-commons`) — the required `variables`-key first-call quirk, `GroupCount.subjects`, a fresh disease cohort + its therapies, the carcinogen-exposure facet, the bracketed-string array quirk, and per-specimen-vs-per-participant counting.
 - **[`test_harness/tests/psdc/`](test_harness/tests/psdc/)**: PS-DC (`population-sciences-data-commons`) — study-level demographics, the participant-level "not-live" boundary (no fabrication), `primarySiteMorphology`, the `subjects`-means-studies facet caveat, and the dbGaP handoff.
+- **[`test_harness/tests/ccdi/`](test_harness/tests/ccdi/)**: CCDI Data Federation (`ccdi-federation`): per-source totals, mapping plain words to exact field values, sources that fail inside an HTTP 200, sources that silently ignore a filter, values that do not exist, missing metadata, not presenting per-source sums as unique children, adult-cohort routing, and metadata-only scope.
 
 Each suite deliberately uses diseases, genes, studies, breeds, and IDs that appear **nowhere** in that
 skill's own `examples/` (e.g. kidney/colorectal rather than GDC's breast; bladder cancer rather than
@@ -128,6 +136,8 @@ Ground-truth values were verified live on **2026-06-11** (GDC Data Release 45.0;
 commons at their then-current loads) and **drift with each data release** — `number` checks grade the
 right order of magnitude / tolerance, re-baselining against each commons' metrics endpoint when numbers
 shift, while the graded *behaviors* (right endpoint, right filter slot, right interpretation) are stable.
+The CCDI Data Federation values were verified live on **2026-10-31** against API spec v1.3.0, and they drift
+with each source's releases and as sources join the federation.
 
 The Imaging Data Commons (IDC) skill is fetched remotely (see [`skills.json`](skills.json)) and is not
 yet covered here. _To be filled out: per-skill pass rates, the harness/runner used, and regression cadence._
@@ -139,6 +149,7 @@ yet covered here. _To be filled out: per-skill pass rates, the harness/runner us
 This is a **prototype**, and the agent is only as good as the skill backing a given query. We expect
 quality to improve materially as the skills are refined. Known and anticipated failure modes:
 
+- **Partial federation answers.** The CCDI Data Federation returns HTTP 200 even when some sources fail, and some sources accept a filter but ignore it and return their full totals. The `ccdi-federation` helpers check for both, but the agent can still word a per-source count too strongly, for example by calling it unique children, and the same child may appear in more than one source.
 - **Stale counts.** Verified numbers drift with each CRDC data release; an answer can be correct in
   approach but off on the exact integer.
 - **Wrong-commons routing.** The agent may route a query to the wrong repository (e.g. proteomics →
